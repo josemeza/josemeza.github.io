@@ -1,0 +1,17 @@
+h1 {
+	padding-left: 20px;
+	font-size: 64px;
+}
+
+#buttons div {
+	padding: 30px;
+	font-size: 36px;
+}
+
+#grid div {
+	padding: 40px;
+}
+
+#grid div a img {
+	width: 100%;
+}
