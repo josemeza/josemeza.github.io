@@ -27,6 +27,10 @@ $(document).ready(function() {
 	  });
 	});
 
+	var msnry = new Masonry('.grid', {
+		"gutter": 20
+	});
+
 	$('#name').click(function() {
 		$('#info').slideToggle();
 	});
