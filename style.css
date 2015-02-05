@@ -1,41 +1,96 @@
-@text-color: @gray;
-
 body {
 	font-family: "Circular", Sans-serif !important;
 	color: rgba(0, 0, 0, 0.665);
 }
 
-h1 {
-	margin-left: 30px;
+body > div {
+	margin: 30px;
+}
+
+#name {
+	margin: 20px 0px 0px 50px;
 	font-size: 64px;
+	cursor: pointer;
 }
 
 #info {
-	/*width: 300px;*/
+	width: 350px;
 	display: none;
 	margin-left: 30px;
+	padding: 20px;
 	font-size: 24px;
 	position: absolute;
 	z-index: 100000;
 	background-color: white;
-	/*border-radius: 5px;*/
+	border-radius: 0px 0px 5px 5px;
 	/*box-shadow: 10px 10px 20px 20px #DDDDDD;*/
 }
 
 #buttons div {
-	padding: 30px;
-	font-size: 36px;
+	float: left;
+	width: 50px;
+	font-size: 48px;
+	margin-top: 20px;
+	cursor: pointer;
+	line-height: 64px;
 }
 
-.grid li {
-	padding: 20px;
-	list-style-type: none;
-	height: 300px;
-	vertical-align: middle;
-	text-align: center;
+#buttons #togrid {
+	font-size: 64px;
+	font-weight: bold;
 }
 
-.grid li a img {
+.grid > div {
+	cursor: pointer;
+	/*padding: 10px;*/
+	margin: 10px 0px 10px 0px;
+	/*list-style-type: none;*/
+	width: 200px;
+	/*height: 300px;*/
+	/*vertical-align: middle;*/
+	/*text-align: center;*/
+	background-color: rgba(15, 15, 15, 0);
+	position: relative;
+	float: left;
+}
+
+.grid > .wide {
+	width: 420px;
+}
+
+.grid div img {
 	max-width: 100%;
 	max-height: 100%;
+	display: block;
+}
+
+.mask {
+	display: block;
+	position: absolute;
+	background: rgba(15, 15, 15, 0.7);
+	opacity: 0;
+	transition: all 0.3s;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.mask > div {
+	display: table;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.mask div div {
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	font-size: 24px;
+}
+.mask:hover {
+	/*background: rgba(15, 15, 15, 0.7);*/
+	opacity: 1;
 }
