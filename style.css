@@ -9,7 +9,6 @@ body {
 }
 
 .header, .grid {
-	opacity: 0;
 	margin: 30px;
 }
 
@@ -66,7 +65,27 @@ body {
 	font-weight: bold;
 }
 
-.grid > div {
+/*.grid {
+	position: absolute;
+
+}*/
+
+/*#shuffleBackground {*/
+	/*position: absolute;*/
+	/*display: block;*/
+	/*left: 0;*/
+	/*right: 0;*/
+	/*left: 0;*/
+
+	/*float: left;*/
+	/*width: 100%;*/
+/*}*/
+
+/*#shuffleBackground img {
+	width: 100%;
+}*/
+
+.tile {
 	cursor: pointer;
 	/*padding: 10px;*/
 	margin: 8px 0px 10px 0px;
@@ -80,12 +99,12 @@ body {
 	/*float: left;*/
 }
 
-.grid > .wide {
+.tile.wide {
 	/*width: 616px;*/
 	width: calc(66.66666% - 21.33px + 16px);
 }
 
-.grid div img {
+.tile img {
 	max-width: 100%;
 	max-height: 100%;
 	display: block;
@@ -94,7 +113,7 @@ body {
 .mask {
 	display: block;
 	position: absolute;
-	background: rgba(200, 200, 200, 0.7);
+	background: rgba(255, 255, 255, 0.7);
 	opacity: 0;
 	transition: all 0.3s;
 	bottom: 0px;

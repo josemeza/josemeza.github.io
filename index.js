@@ -5,12 +5,18 @@ $(document).ready(function() {
 	carousel.hide();
 
 	var z = 100;
-	var tiles = $('.grid').children();
+	var grid = $('.grid');
+	var tiles = $('.tile');
+	var msnry = null;
 
-	tiles.each(function(i) {
-		var tile = $(this);
-		tile.attr('data-id', i);
-	});
+	// var shufBack = $('#shuffle-background');
+	// shufBack.css('left', grid.position().left);
+	// shufBack.css('top', grid.position().top);
+
+	// tiles.each(function(i) {
+	// 	var tile = $(this);
+	// 	tile.attr('data-id', i);
+	// });
 
 	// $('#shuffle').click(function() {
 	// 	var grid = $('.grid');
@@ -34,17 +40,24 @@ $(document).ready(function() {
 	// });
 
 	$('#shuffle').click(function() {
-		var tiles = $('.grid > div');
+		// shufBack.show();
+		// $('#shuffleBackground').remove();
+		// $('.grid').prepend('<img id="shuffleBackground" src="images/Shuffle Background.png" style="width: 100%">');
+		grid.css('background-image', 'url("images/Shuffle Background.png")');
+
+		grid.css('height', $(window).height() - 64 - 90);
+		// var tiles = $('.tile');
 		tiles.draggable({
 			start: function() {
 				$(this).css('z-index', z++);
 			}
 		});
-		tiles.css('position', 'absolute');
-			// var gridw = $('.grid').width();
-			// var gridh = $('.grid').height();
-			var gridw = $(window).width();
-			var gridh = $(window).height();
+		tiles.draggable('enable');
+		// tiles.css('position', 'absolute');
+		var gridw = grid.width();
+		var gridh = grid.height();
+		// var gridw = $(window).width();
+		// var gridh = $(window).height();
 		tiles.each(function() {
 			var tilew = $(this).width();
 			var tileh = $(this).height();
@@ -56,19 +69,32 @@ $(document).ready(function() {
 				left: x + '%',
 				top: y + '%'
 			}, 300);
+
 		});
+
+		// if (msnry != null) {
+		// 	msnry.destroy();
+		// 	msnry = null;
+		// }
 	});
 
 	$('#togrid').click(function() {
-		var tiles = $('.grid > div');
-		tiles.draggable('disable');
-		tiles.css('position', 'relative');
-		var msnry = new Masonry('.grid', {
+		// shufBack.hide();
+		grid.css('background-image', 'none');
+
+		// var tiles = $('.tile');
+		if (tiles.is(".ui-draggable")) {
+			tiles.draggable('disable');
+		}
+		// tiles.css('position', 'relative');
+		// if (msnry == null) {
+		msnry = new Masonry('.grid', {
 			"gutter": 16
 		});
+		// }
 	});
 
-	var msnry = new Masonry('.grid', {
+	msnry = new Masonry('.grid', {
 		"gutter": 16
 	});
 
@@ -76,8 +102,8 @@ $(document).ready(function() {
 		$('#info').slideToggle();
 	});
 
-	$('.header').delay(200).animate({ opacity: 1 }, 500);
-	$('.grid').delay(500).animate({ opacity: 1 }, 500);
+	// $('.header').css('opacity', 0).delay(200).animate({ opacity: 1 }, 500);
+	// $('.grid').css('opacity', 0).delay(800).animate({ opacity: 1 }, 2000);
 
 	var showCarousel = function() {
 		dimmer.show();
