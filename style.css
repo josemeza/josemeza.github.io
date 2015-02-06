@@ -1,20 +1,29 @@
 @font-face {
-	font-family: Apercu;
-	src: url(./font-familiy/Apercu.ttf);
+	font-family: Apercu-Medium;
+	src: url(./font-familiy/Apercu-Medium.ttf);
 }
 
 body {
-	font-family: Apercu, "Circular", Sans-serif !important;*/
+	font-family: Apercu-Medium, "Circular", Sans-serif !important;*/
 	color: black;
 }
 
-body > div {
+.header, .grid {
 	opacity: 0;
 	margin: 30px;
 }
 
+.header {
+	/*width: 100%;*/
+	height: 64px;
+	/*float: left;*/
+}
+
 #name {
-	margin: 20px 0px 0px 50px;
+	display: inline-block;
+	float: left;
+	/*margin: 20px 0px 0px 50px;*/
+	margin: 0px;
 	font-size: 64px;
 	cursor: pointer;
 }
@@ -24,32 +33,35 @@ body > div {
 }
 
 #info {
-	width: 350px;
+	width: 50%;
 	display: none;
-	margin-left: 30px;
+	/*margin-left: 30px;*/
 	padding: 20px;
 	font-size: 24px;
 	position: absolute;
+	top: 94px;
+	left: 20px;
 	z-index: 100000;
 	background-color: white;
 	border-radius: 0px 0px 5px 5px;
 	/*box-shadow: 10px 10px 20px 20px #DDDDDD;*/
 }
 
-#buttons div {
-	float: left;
+.arrange {
+	display: inline-block;
+	float: right;
 	width: 50px;
 	font-size: 48px;
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 	cursor: pointer;
 	line-height: 64px;
 }
 
-#buttons div:hover {
+.arrange:hover {
 	color: rgba(0, 0, 0, 0.665);
 }
 
-#buttons #togrid {
+#togrid {
 	font-size: 64px;
 	font-weight: bold;
 }
@@ -59,7 +71,7 @@ body > div {
 	/*padding: 10px;*/
 	margin: 8px 0px 10px 0px;
 	/*list-style-type: none;*/
-	width: 300px;
+	width: calc(33.33333% - 10.66px);
 	/*height: 300px;*/
 	/*vertical-align: middle;*/
 	/*text-align: center;*/
@@ -69,7 +81,8 @@ body > div {
 }
 
 .grid > .wide {
-	width: 616px;
+	/*width: 616px;*/
+	width: calc(66.66666% - 21.33px + 16px);
 }
 
 .grid div img {
@@ -107,4 +120,25 @@ body > div {
 .mask:hover {
 	/*background: rgba(15, 15, 15, 0.7);*/
 	opacity: 1;
+}
+
+#dimmer {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.95);
+}
+
+.carousel {
+	position: fixed;
+	top: 10%;
+	width: 100%;
+	height: 80%;
+}
+
+.carousel div img {
+	/*max-width: 30%;*/
+	width: 400px;
+	cursor: pointer;
 }
