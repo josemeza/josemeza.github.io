@@ -28,11 +28,14 @@ $(document).ready(function() {
 	});
 
 	var msnry = new Masonry('.grid', {
-		"gutter": 20
+		"gutter": 16
 	});
 
 	$('#name').click(function() {
 		$('#info').slideToggle();
 	});
+
+	$('.row').delay(200).animate({ opacity: 1 }, 500);
+	$('.grid').delay(500).animate({ opacity: 1 }, 500);
 
 });

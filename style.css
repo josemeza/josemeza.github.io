@@ -1,9 +1,15 @@
+@font-face {
+	font-family: Apercu;
+	src: url(./font-familiy/Apercu.ttf);
+}
+
 body {
-	font-family: "Circular", Sans-serif !important;
-	color: rgba(0, 0, 0, 0.665);
+	font-family: Apercu, "Circular", Sans-serif !important;*/
+	color: black;
 }
 
 body > div {
+	opacity: 0;
 	margin: 30px;
 }
 
@@ -11,6 +17,10 @@ body > div {
 	margin: 20px 0px 0px 50px;
 	font-size: 64px;
 	cursor: pointer;
+}
+
+#name:hover {
+	color: rgba(0, 0, 0, 0.665);
 }
 
 #info {
@@ -35,6 +45,10 @@ body > div {
 	line-height: 64px;
 }
 
+#buttons div:hover {
+	color: rgba(0, 0, 0, 0.665);
+}
+
 #buttons #togrid {
 	font-size: 64px;
 	font-weight: bold;
@@ -43,19 +57,19 @@ body > div {
 .grid > div {
 	cursor: pointer;
 	/*padding: 10px;*/
-	margin: 10px 0px 10px 0px;
+	margin: 8px 0px 10px 0px;
 	/*list-style-type: none;*/
-	width: 200px;
+	width: 300px;
 	/*height: 300px;*/
 	/*vertical-align: middle;*/
 	/*text-align: center;*/
-	background-color: rgba(15, 15, 15, 0);
+	/*background-color: rgba(15, 15, 15, 0);*/
 	position: relative;
-	float: left;
+	/*float: left;*/
 }
 
 .grid > .wide {
-	width: 420px;
+	width: 616px;
 }
 
 .grid div img {
@@ -67,7 +81,7 @@ body > div {
 .mask {
 	display: block;
 	position: absolute;
-	background: rgba(15, 15, 15, 0.7);
+	background: rgba(200, 200, 200, 0.7);
 	opacity: 0;
 	transition: all 0.3s;
 	bottom: 0px;
@@ -87,7 +101,7 @@ body > div {
 .mask div div {
 	display: table-cell;
 	vertical-align: middle;
-	color: white;
+	color: black;
 	font-size: 24px;
 }
 .mask:hover {
