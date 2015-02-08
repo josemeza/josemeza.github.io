@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 		<script src="plugins/jquery.quicksand.js"></script>
-		<script src="plugins/masonry.pkgd.min.js"></script>
+		<script src="plugins/isotope.pkgd.min.js"></script>
 		<script src="index.js"></script>
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
 		<link rel="stylesheet" type="text/css" href="plugins/slick/slick.css"/>
@@ -22,9 +22,7 @@
 	<body>
 		<div class="header">
 			<p id="name">Jos&eacute; Meza</p>
-			<div id="info">
-				<p>is a graduate student in the Architecture program at Princeton. Previously, he has worked as a designer for Pentagram, 2x4, and Ateliers Jean Nouvel.</p>
-			</div>
+
 <!-- 				<div id="info" class="modal fade">
 				<div class="modal-dialog">
 					<div class="modal-body">
@@ -33,19 +31,28 @@
 				</div>
 			</div> -->
 			<!-- <div class="arrange" id="togrid">&#9633</div> -->
-			<div class="arrange" id="shuffle">~</div>
+			<div class="arrange" id="shuffle">o</div>
 		</div>
+		<div id="info">is a graduate student in the Architecture program at Princeton. Previously, he has worked as a designer for Pentagram, 2x4, and Ateliers Jean Nouvel.</div>
 		<div class="grid">
 			<div class="tile">
-				<img src="images/Portfolio.jpg">
+				<img src="images/Portfolio.gif">
 				<div class="mask"><div><div>Portfolio</div></div></div>
 			</div>
 			<div class="tile">
 				<img src="images/Frameworks.png">
 				<div class="mask"><div><div>FrameWorks</div></div></div>
 			</div>
-			<div class="tile wide">
+<!-- 			<div class="tile wide">
 				<img src="images/Highline.gif">
+				<div class="mask"><div><div>HL</div></div></div>
+			</div> -->
+			<div class="tile">
+				<img src="images/HLSnark.jpg">
+				<div class="mask"><div><div>HL</div></div></div>
+			</div>
+			<div class="tile">
+				<img src="images/New Highline.gif">
 				<div class="mask"><div><div>HL</div></div></div>
 			</div>
 			<div class="tile">
@@ -56,11 +63,11 @@
 				<img src="images/PSOA.png">
 				<div class="mask"><div><div>PSOA</div></div></div>
 			</div>
-			<div class="tile" id="tile-pidgin">
+			<div class="tile" data-gallery="pidgin">
 				<img src="images/Pidgin.png">
 				<div class="mask"><div><div>Pidgin</div></div></div>
 			</div>
-			<div class="tile">
+			<div class="tile" data-gallery="pidgin">
 				<img src="images/Surveying.gif">
 				<div class="mask"><div><div>Surveying</div></div></div>
 			</div>
@@ -71,6 +78,8 @@
 		</div> -->
 
 		<div id="dimmer"></div>
+		<p id="carousel-label"></p>
+		<p id="carousel-caption"></p>
 		<div class="carousel">
 <!-- 			<div><img src="images/Pidgin/pidgin1.png"></div>
 			<div><img src="images/Pidgin/pidgin2.png"></div>
