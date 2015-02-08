@@ -7,35 +7,27 @@
 		<meta property="og:title" content="Index">
 		<meta property="og:type" content="website">
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-		<script src="plugins/jquery.quicksand.js"></script>
-		<script src="plugins/isotope.pkgd.min.js"></script>
-		<script src="index.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" defer></script>
+		<!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"> -->
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script> -->
+		<!-- <script src="plugins/jquery.quicksand.js"></script> -->
+		<script src="plugins/isotope.pkgd.min.js" defer></script>
+		<script type="text/javascript" src="plugins/slick/slick.min.js" defer></script>
+		<script src="index.js" defer></script>
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
 		<link rel="stylesheet" type="text/css" href="plugins/slick/slick.css"/>
-		<link rel="stylesheet" type="text/css" href="plugins/slick/slick-theme.css"/>
+		<!-- <link rel="stylesheet" type="text/css" href="plugins/slick/slick-theme.css"/> -->
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 
 	<body>
 		<div class="header">
 			<p id="name">Jos&eacute; Meza</p>
-
-<!-- 				<div id="info" class="modal fade">
-				<div class="modal-dialog">
-					<div class="modal-body">
-						<p>info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info </p>
-					</div>
-				</div>
-			</div> -->
-			<!-- <div class="arrange" id="togrid">&#9633</div> -->
 			<div class="arrange" id="shuffle">o</div>
 		</div>
 		<div id="info">is a graduate student in the Architecture program at Princeton. Previously, he has worked as a designer for Pentagram, 2x4, and Ateliers Jean Nouvel.</div>
 		<div class="grid">
-			<div class="tile">
+			<div class="tile wide">
 				<img src="images/Portfolio.gif">
 				<div class="mask"><div><div>Portfolio</div></div></div>
 			</div>
@@ -43,15 +35,11 @@
 				<img src="images/Frameworks.png">
 				<div class="mask"><div><div>FrameWorks</div></div></div>
 			</div>
-<!-- 			<div class="tile wide">
-				<img src="images/Highline.gif">
-				<div class="mask"><div><div>HL</div></div></div>
-			</div> -->
-			<div class="tile">
+			<div class="tile wide">
 				<img src="images/HLSnark.jpg">
 				<div class="mask"><div><div>HL</div></div></div>
 			</div>
-			<div class="tile">
+			<div class="tile wider">
 				<img src="images/New Highline.gif">
 				<div class="mask"><div><div>HL</div></div></div>
 			</div>
@@ -72,24 +60,10 @@
 				<div class="mask"><div><div>Surveying</div></div></div>
 			</div>
 		</div>
-		<!-- <img id="shuffleBackground" src="images/Shuffle Background.png"> -->
-<!-- 		<div id="shuffleBackground">
-			<img src="images/Shuffle Background.png">
-		</div> -->
 
 		<div id="dimmer"></div>
-		<p id="carousel-label"></p>
+		<div id="carousel-label"></div>
 		<p id="carousel-caption"></p>
-		<div class="carousel">
-<!-- 			<div><img src="images/Pidgin/pidgin1.png"></div>
-			<div><img src="images/Pidgin/pidgin2.png"></div>
-			<div><img src="images/Pidgin/pidgin3.png"></div>
-			<div><img src="images/Pidgin/pidgin4.png"></div>
-			<div><img src="images/Pidgin/pidgin5.png"></div>
-			<div><img src="images/Pidgin/pidgin6.png"></div>
-			<div><img src="images/Pidgin/pidgin7.png"></div>
- -->		</div>
-
-		<script type="text/javascript" src="plugins/slick/slick.min.js"></script>
+		<div class="carousel"></div>
 	</body>
 </html>
