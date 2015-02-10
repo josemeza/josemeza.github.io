@@ -13,6 +13,10 @@ $(document).ready(function() {
 	var grid = $('.grid');
 	var tiles = $('.tile');
 
+	$(window).load(function() {
+		$('#loading').fadeOut();
+	})
+
 	$('.grid').isotope({
 		layoutMode: 'masonry',
 		masonry: {
