@@ -34,7 +34,11 @@ $(document).ready(function() {
 			tile.attr('data-id', i);
 		});
 
-		$('.grid').isotope('updateSortData').isotope();
+		grid.isotope('updateSortData').isotope();
+	});
+
+	imagesLoaded(grid, function() {
+		grid.isotope('layout');
 	});
 
 	$('#name').click(function() {
@@ -72,7 +76,7 @@ $(document).ready(function() {
 		switch (label) {
 
 			case "Cholo Urbanism":
-				caption = "";
+				caption = "fhds h als dfjkas fdlashjaskldhfjka sdjkf  ajksf klas dlasdf kjas djkf asjkdhfjk als dfhkjasd fkjlads kjfas kjdlf ajskdf kjasd fkjas djkfas kdj";
 				images = [
 					"images/Cholo Urbanism/axo.png",
 					"images/Cholo Urbanism/detail1.jpg",
@@ -197,6 +201,10 @@ $(document).ready(function() {
 		$('.carousel-item').css('height', 0.66 * $(window).height());
 		// $('.carousel-item').css('max-height', 0.75 * $(window).height());
 		// $('.carousel-item').css('max-width', 0.75 * $(window).width());
+	});
+
+	carousel.on('beforeChange', function(slick, currentSlide, nextSlide) {
+
 	});
 
 });

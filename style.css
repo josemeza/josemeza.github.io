@@ -8,8 +8,18 @@
 	src: url(./font-familiy/Apercu-Light.ttf);
 }
 
+@font-face {
+	font-family: MaisonNeue;
+	src: url(./font-family_3/MaisonNeueTRIAL-Demi.otf);
+}
+
+@font-face {
+	font-family: CircularStd-Medium;
+	src: url(./font-family_2/CircularStd-Medium.otf);
+}
+
 body {
-	font-family: Apercu-Medium, "Circular", Sans-serif !important;*/
+	font-family: Apercu-Medium, CircularStd-Medium, MaisonNeue, Sans-serif !important;
 	color: black;
 	margin: 0;
 	padding: 0;
@@ -82,9 +92,9 @@ a:hover {
 
 .arrange:hover img {
 	color: rgba(0, 0, 0, 0.5);
-	-webkit-animation: spin 0.5s linear infinite;
-    -moz-animation: spin 0.5s linear infinite;
-    animation: spin 0.5s linear infinite;
+	-webkit-animation: spin 0.75s linear infinite;
+    -moz-animation: spin 0.75s linear infinite;
+    animation: spin 0.75s linear infinite;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
@@ -151,7 +161,7 @@ a:hover {
 
 .carousel {
 	position: fixed;
-	top: 10%;
+	top: 13%;
 	width: 100%;
 	z-index: 100001;
 }
@@ -188,7 +198,7 @@ a:hover {
 	position: fixed;
 	display: inline-block;
 	/*top: calc(90% + 20px);*/
-	top: 80%;
+	top: 82%;
 	/*width: 70%;*/
 	/*margin-left: 15%;*/
 	/*margin-right: 15%;*/
@@ -201,9 +211,9 @@ a:hover {
 	width: 20px;
 	height: 20px;
 	position: fixed;
-	top: -webkit-calc(10% - 44px);
-	top: calc(10% - 44px);
-	left: 90%;
+	top: 93%;
+	left: -webkit-calc(50% - 10px);
+	left: calc(50% - 10px);
 	z-index: 100002;
 }
 
