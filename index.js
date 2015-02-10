@@ -1,12 +1,14 @@
 $(document).ready(function() {
+	var carouselContainer = $('#carousel-container');
+	carouselContainer.hide();
 	var dimmer = $('#dimmer');
-	dimmer.hide();
+	// dimmer.hide();
 	var carousel = $('.carousel');
-	carousel.hide();
+	// carousel.hide();
 	var carouselLabel = $('#carousel-label');
-	carouselLabel.hide();
+	// carouselLabel.hide();
 	var carouselCaption = $('#carousel-caption');
-	carouselCaption.hide();
+	// carouselCaption.hide();
 
 	var grid = $('.grid');
 	var tiles = $('.tile');
@@ -43,12 +45,12 @@ $(document).ready(function() {
 	// $('.grid').css('opacity', 0).delay(700).animate({ opacity: 1 }, 500);
 
 	var showCarousel = function() {
-		dimmer.show();
-
-		carouselLabel.show();
-		carouselCaption.show();
-		carousel.show();
-		$('.carousel-item img').css('height', 0.75 * $(window).height());
+		carouselContainer.show();
+		// dimmer.show();
+		// carouselLabel.show();
+		// carouselCaption.show();
+		// carousel.show();
+		$('.carousel-item img').css('height', 0.66 * $(window).height());
 		// $('.carousel-item img').css('max-height', 0.75 * $(window).height());
 		// $('.carousel-item img').css('max-width', 0.75 * $(window).width());
 		carousel.slick({
@@ -181,17 +183,18 @@ $(document).ready(function() {
 		showCarousel();
 	});
 
-	$('#dimmer, #carousel-label, #carousel-caption').click(function() {
+	$('#dimmer, #carousel-label, #carousel-caption, #carousel-close').click(function() {
 		carousel.slick('unslick');
 		carousel.empty();
-		carousel.hide();
-		carouselLabel.hide();
-		carouselCaption.hide();
-		dimmer.hide();
+		carouselContainer.hide();
+		// carousel.hide();
+		// carouselLabel.hide();
+		// carouselCaption.hide();
+		// dimmer.hide();
 	});
 
 	$(window).resize(function() {
-		$('.carousel-item').css('height', 0.75 * $(window).height());
+		$('.carousel-item').css('height', 0.66 * $(window).height());
 		// $('.carousel-item').css('max-height', 0.75 * $(window).height());
 		// $('.carousel-item').css('max-width', 0.75 * $(window).width());
 	});

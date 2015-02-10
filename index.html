@@ -23,14 +23,14 @@
 	<body>
 		<div class="header">
 			<p id="name">Jos&eacute; Meza</p>
-			<div class="arrange" id="shuffle">o</div>
+			<div class="arrange" id="shuffle"><img src="button + browser icon.png"></div>
 		</div>
-		<div id="info">is a graduate student in the Architecture program at Princeton. Previously, he has worked as a designer for Pentagram, 2x4, and Ateliers Jean Nouvel.</div>
+		<div id="info">is a graduate student in the Architecture program at <a href="http://soa.princeton.edu" target="_blank">Princeton</a>. Previously, he has worked as a designer for Pentagram, 2x4, and Ateliers Jean Nouvel.</div>
 		<div class="grid">
 
-			<div class="tile wide" data-gallery="Portfolio">
+			<div class="tile" data-gallery="Portfolio">
 				<img src="images/Portfolio.gif">
-				<div class="mask"><div><div>Portfolio</div></div></div>
+				<div class="mask"><div><div>Portfolio<br><span class="subtitle">subtitle</span></div></div></div>
 			</div>
 
 			<div class="tile" data-gallery="Frameworks">
@@ -43,13 +43,18 @@
 				<div class="mask"><div><div>Frameworks</div></div></div>
 			</div>
 
-			<div class="tile wide" data-gallery="HLSnark">
+			<div class="tile" data-gallery="HLSnark">
 				<img src="images/HLSnark.jpg">
 				<div class="mask"><div><div>HLSnark</div></div></div>
 			</div>
 
-			<div class="tile wider" data-gallery="Highline">
+			<div class="tile" data-gallery="Highline">
 				<img src="images/New Highline.gif">
+				<div class="mask"><div><div>Highline</div></div></div>
+			</div>
+
+			<div class="tile" data-gallery="Highline">
+				<img src="images/flowers4.jpg">
 				<div class="mask"><div><div>Highline</div></div></div>
 			</div>
 
@@ -58,8 +63,23 @@
 				<div class="mask"><div><div>Cholo Urbanism</div></div></div>
 			</div>
 
+			<div class="tile" data-gallery="Cholo Urbanism">
+				<img src="images/Cholo2.jpg">
+				<div class="mask"><div><div>Cholo Urbanism</div></div></div>
+			</div>
+
 			<div class="tile" data-gallery="PSOA">
 				<img src="images/PSOA.png">
+				<div class="mask"><div><div>PSOA</div></div></div>
+			</div>
+
+			<div class="tile" data-gallery="PSOA">
+				<img src="images/P4.png">
+				<div class="mask"><div><div>PSOA</div></div></div>
+			</div>
+
+			<div class="tile" data-gallery="PSOA">
+				<img src="images/P5.png">
 				<div class="mask"><div><div>PSOA</div></div></div>
 			</div>
 
@@ -68,16 +88,38 @@
 				<div class="mask"><div><div>Pidgin</div></div></div>
 			</div>
 
+			<div class="tile" data-gallery="Pidgin">
+				<img src="images/pidgin1.png">
+				<div class="mask"><div><div>Pidgin</div></div></div>
+			</div>
+
 			<div class="tile" data-gallery="Survey">
 				<img src="images/Surveying.gif">
 				<div class="mask"><div><div>Survey</div></div></div>
 			</div>
 
-		</div>
+			<div class="tile" data-gallery="Survey">
+				<img src="images/map1.jpg">
+				<div class="mask"><div><div>Survey</div></div></div>
+			</div>
 
-		<div id="dimmer"></div>
-		<div id="carousel-label"></div>
-		<p id="carousel-caption"></p>
-		<div class="carousel"></div>
+			<div class="tile" data-gallery="Survey">
+				<img src="images/map3.png">
+				<div class="mask"><div><div>Survey</div></div></div>
+			</div>
+
+			<div class="tile" data-gallery="Survey">
+				<img src="images/Still3.png">
+				<div class="mask"><div><div>Survey</div></div></div>
+			</div>
+
+		</div>
+		<div id="carousel-container">
+			<div id="dimmer"></div>
+			<div id="carousel-label"></div>
+			<p id="carousel-caption"></p>
+			<img id="carousel-close" src="close-out.png">
+			<div class="carousel"></div>	
+		</div>
 	</body>
 </html>
