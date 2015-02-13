@@ -106,7 +106,7 @@ $(document).ready(function() {
 			case "High Line : Branding & Identity":
 				caption = "Rebranding strategy and environmental graphic identity for the seminal elevated park in New York.";
 				images = [
-					//"images/Highline/wordmark.gif",];//
+					"images/Highline/wordmark.gif",
 					"images/Highline/flowers1.jpg",
 					"images/Highline/flowers2.jpg",
 					"images/Highline/flowers3.jpg",
@@ -139,7 +139,7 @@ $(document).ready(function() {
 						"images/Pidgin/pidgin7.png"];
 					break;
 
-				case "Print":
+				case "Print : Portfolio":
 					caption = "Recent Work";
 					images = [
 						"images/Portfolio.gif"];
