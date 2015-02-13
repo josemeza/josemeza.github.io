@@ -145,8 +145,8 @@ $(document).ready(function() {
 						"images/Portfolio.gif"];
 					break;
 
-				case "PSOA":
-					caption = "";
+				case "Princeton School of Architecture":
+					caption = "Rebranding strategy for the graduate architecture program.";
 					images = [
 						"images/PSOA/P1.png",
 						"images/PSOA/P2.png",
@@ -158,8 +158,8 @@ $(document).ready(function() {
 						"images/PSOA/P8.png"];
 					break;
 
-				case "Survey":
-					caption = "";
+				case "Surveying the Dark Age":
+					caption = "Time-based, film project based on a fictional, primitive data-storing narrative.";
 					images = [
 						"images/Survey/landscape1.jpg",
 						"images/Survey/landscape2.jpg",
