@@ -81,9 +81,11 @@ body {
 a { 
 	text-decoration: none;
 	color: inherit;
+	opacity: .3;
 }
 
 a:hover {
+	text-decoration: underline;
 	color: gray;
 }
 
@@ -181,7 +183,7 @@ a:hover {
 
 .carousel {
 	position: fixed;
-	top: 13%;
+	top: 15%;
 	width: 100%;
 	z-index: 100001;
 }
@@ -201,7 +203,7 @@ a:hover {
 }
 
 #carousel-label {
-	font-size: 30px;
+	font-size: 24px;
 	color: black;
 	position: fixed;
 	top: -webkit-calc(10% - 44px);
@@ -212,7 +214,7 @@ a:hover {
 }
 
 #carousel-caption {
-	font-size: 18px;
+	font-size: 14px;
 	font-family: Apercu-Light;
 	color: black;
 	position: fixed;

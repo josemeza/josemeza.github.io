@@ -58,7 +58,7 @@ $(document).ready(function() {
 		// carouselLabel.show();
 		// carouselCaption.show();
 		// carousel.show();
-		$('.carousel-item img').css('height', 0.66 * $(window).height());
+		$('.carousel-item img').css('height', 0.6 * $(window).height());
 		// $('.carousel-item img').css('max-height', 0.75 * $(window).height());
 		// $('.carousel-item img').css('max-width', 0.75 * $(window).width());
 		carousel.slick({
@@ -80,56 +80,54 @@ $(document).ready(function() {
 		switch (label) {
 
 			case "Cholo Urbanism":
-				caption = "fhds h als dfjkas fdlashjaskldhfjka sdjkf  ajksf klas dlasdf kjas djkf asjkdhfjk als dfhkjasd fkjlads kjfas kjdlf ajskdf kjasd fkjas djkfas kdj";
+				caption = "Superblock, roofsacpe-condenser urban model for a transnational immigrant community in Brooklyn.";
 				images = [
 					"images/Cholo Urbanism/axo.png",
 					"images/Cholo Urbanism/detail1.jpg",
 					"images/Cholo Urbanism/detail2.jpg",
 					"images/Cholo Urbanism/detail3.jpg",
 					"images/Cholo Urbanism/detail4.jpg",
+					"images/Cholo Urbanism/detail5.jpg",
+					"images/Cholo Urbanism/detail6.jpg",
+					"images/Cholo Urbanism/detail7.jpg",
 					"images/Cholo Urbanism/plan.png"];
 				break;
 
 			case "Frameworks":
-				caption = "";
+				caption = "Multi-site proposal and identity for a modular, temporary and recreational system sponsored by the NYC Parks Department (or any other sponsor).";
 				images = [
-					"images/Frameworks/black frames.jpg",
-					"images/Frameworks/black logo.png",
-					"images/Frameworks/bushwick.png",
-					"images/Frameworks/frameworks logo.png",
+					"images/Frameworks/logo.jpg",
 					"images/Frameworks/green frames.jpg",
+					"images/Frameworks/bushwick.png",
 					"images/Frameworks/harlem.png",
-					"images/Frameworks/orange frames.jpg",
 					"images/Frameworks/riis.png"];
 				break;
 
-			case "Highline":
-				caption = "";
+			case "High Line : Branding & Identity":
+				caption = "Rebranding strategy and environmental graphic identity for the seminal elevated park in New York.";
 				images = [
+					//"images/Highline/wordmark.gif",];//
 					"images/Highline/flowers1.jpg",
 					"images/Highline/flowers2.jpg",
 					"images/Highline/flowers3.jpg",
 					"images/Highline/flowers4.jpg",
 					"images/Highline/rail1.jpg",
 					"images/Highline/rail2.jpg",
-					"images/Highline/rail3.jpg",
-					"images/Highline/wordmark flowers.png",
-					"images/Highline/wordmark rail.png",
-					"images/Highline/wordmark.png"];
+					"images/Highline/rail3.jpg"];
 				break;
 
-			case "HLSnark":
+			case "Sketches":
 				caption = "";
 				images = [
+					"images/HLSnark/HL5.jpg"
 					"images/HLSnark/AD3.jpg",
 					"images/HLSnark/AD5.jpg",
 					"images/HLSnark/HL2.jpg",
-					"images/HLSnark/HL4.jpg",
-					"images/HLSnark/HL5.jpg"];
+					"images/HLSnark/HL4.jpg",];
 				break;
 
-			case "Pidgin":
-					caption = "is a graduate student in the Architecture program at Princeton. Previously, he has worked as a designer for Pentagram, 2x4, and Ateliers Jean Nouvel.";
+			case "Pidgin Magazine":
+					caption = "Redesign of the Princeton School of Architecture publication.";
 					images = [
 						"images/Pidgin/pidgin0.png",
 						"images/Pidgin/pidgin1.png",
@@ -141,10 +139,10 @@ $(document).ready(function() {
 						"images/Pidgin/pidgin7.png"];
 					break;
 
-				case "Portfolio":
-					caption = "";
+				case "Print":
+					caption = "Recent Work";
 					images = [
-						"images/Portfolio/Portfolio.jpg"];
+						"images/Portfolio.gif"];
 					break;
 
 				case "PSOA":
