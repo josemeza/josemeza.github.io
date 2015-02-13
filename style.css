@@ -186,6 +186,7 @@ a:hover {
 	top: 15%;
 	width: 100%;
 	z-index: 100001;
+	background-color: white;
 }
 
 .carousel-item {
