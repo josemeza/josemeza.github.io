@@ -119,11 +119,11 @@ $(document).ready(function() {
 			case "Sketches":
 				caption = "";
 				images = [
-					"images/HLSnark/HL5.jpg"
+					"images/HLSnark/HL5.jpg",
 					"images/HLSnark/AD3.jpg",
 					"images/HLSnark/AD5.jpg",
 					"images/HLSnark/HL2.jpg",
-					"images/HLSnark/HL4.jpg",];
+					"images/HLSnark/HL4.jpg"];
 				break;
 
 			case "Pidgin Magazine":
