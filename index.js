@@ -80,7 +80,7 @@ $(document).ready(function() {
 		switch (label) {
 
 			case "Cholo Urbanism":
-				caption = "Superblock, roofsacpe-condenser urban model for a transnational immigrant community in Brooklyn.";
+				caption = "Superblock, roofscape-condenser urban model for a transnational immigrant community in Brooklyn.";
 				images = [
 					"images/Cholo Urbanism/axo.png",
 					"images/Cholo Urbanism/detail1.jpg",
@@ -96,8 +96,8 @@ $(document).ready(function() {
 			case "Frameworks":
 				caption = "Multi-site proposal and identity for a modular, temporary and recreational system sponsored by the NYC Parks Department (or any other sponsor).";
 				images = [
-					"images/Frameworks/logo.jpg",
-					"images/Frameworks/green frames.jpg",
+					"images/Frameworks/parkslogo.gif",
+					"images/Frameworks/frames.png",
 					"images/Frameworks/bushwick.png",
 					"images/Frameworks/harlem.png",
 					"images/Frameworks/riis.png"];
@@ -161,12 +161,12 @@ $(document).ready(function() {
 					images = [
 						"images/Survey/map1.jpg",
 						"images/Survey/map2.jpg",
-						"images/Survey/map0.jpg"
-						"images/Survey/map3.png",
+						"images/Survey/map4.jpg",
 						"images/Survey/landscape1a.jpg",
 						"images/Survey/landscape1b.jpg",
 						"images/Survey/landscape1c.jpg",
 						"images/Survey/landscape0.png",
+						"images/Survey/map3.png",
 						"images/Survey/Still1.png",
 						"images/Survey/Still2.png",
 						"images/Survey/Still3.png",
