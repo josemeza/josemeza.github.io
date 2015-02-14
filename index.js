@@ -129,14 +129,12 @@ $(document).ready(function() {
 			case "Pidgin Magazine":
 					caption = "Redesign of the Princeton School of Architecture publication.";
 					images = [
-						"images/Pidgin/pidgin0.png",
-						"images/Pidgin/pidgin1.png",
-						"images/Pidgin/pidgin2.png",
-						"images/Pidgin/pidgin3.png",
-						"images/Pidgin/pidgin4.png",
-						"images/Pidgin/pidgin5.png",
-						"images/Pidgin/pidgin6.png",
-						"images/Pidgin/pidgin7.png"];
+						"images/Pidgin/Pidgin-01.png",
+						"images/Pidgin/Pidgin-02.png",
+						"images/Pidgin/Pidgin-03.png",
+						"images/Pidgin/Pidgin-04.png",
+						"images/Pidgin/Pidgin-05.png",
+						"images/Pidgin/Pidgin-06.png",];
 					break;
 
 				case "Print : Portfolio":
@@ -148,26 +146,27 @@ $(document).ready(function() {
 				case "Princeton School of Architecture":
 					caption = "Rebranding strategy for the graduate architecture program.";
 					images = [
-						"images/PSOA/P1.png",
-						"images/PSOA/P2.png",
-						"images/PSOA/P3.png",
-						"images/PSOA/P4.png",
-						"images/PSOA/P5.png",
-						"images/PSOA/P6.png",
-						"images/PSOA/P7.png",
-						"images/PSOA/P8.png"];
+						"images/PSOA/PSOA-01.png",
+						"images/PSOA/PSOA-02.png",
+						"images/PSOA/PSOA-03.png",
+						"images/PSOA/PSOA-04.png",
+						"images/PSOA/PSOA-05.png",
+						"images/PSOA/PSOA-06.png",
+						"images/PSOA/PSOA-07.png",
+						"images/PSOA/PSOA-08.png",];
 					break;
 
 				case "Surveying the Dark Age":
 					caption = "Time-based, film project based on a fictional, primitive data-storing narrative.";
 					images = [
-						"images/Survey/landscape1.jpg",
-						"images/Survey/landscape2.jpg",
-						"images/Survey/landscape3.jpg",
-						"images/Survey/landscape4.jpg",
 						"images/Survey/map1.jpg",
 						"images/Survey/map2.jpg",
+						"images/Survey/map0.jpg"
 						"images/Survey/map3.png",
+						"images/Survey/landscape1a.jpg",
+						"images/Survey/landscape1b.jpg",
+						"images/Survey/landscape1c.jpg",
+						"images/Survey/landscape0.png",
 						"images/Survey/Still1.png",
 						"images/Survey/Still2.png",
 						"images/Survey/Still3.png",
