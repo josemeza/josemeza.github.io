@@ -190,11 +190,11 @@ a:hover {
 
 .carousel {
 	position: fixed;
-	top: 12.5%;
+	top: 10%;
 	width: 100%;
 	z-index: 100001;
 	background-color: white;
-	padding: 30px;
+	padding: 60px;
 	-webkit-box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.25);
 	-moz-box-shadow:    6px 6px 12px 0px rgba(0, 0, 0, 0.25);
 	box-shadow:         6px 6px 12px 0px rgba(0, 0, 0, 0.25);
@@ -220,21 +220,21 @@ a:hover {
 	font-size: 24px;
 	color: black;
 	position: fixed;
-	top: -webkit-calc(10% - 44px);
-	top: calc(10% - 44px);
+	top: -webkit-calc(18% - 44px);
+	top: calc(18% - 44px);
 	width: 100%;
 	text-align: center;
 	z-index: 100002;
 }
 
 #carousel-caption {
-	font-size: 18px;
+	font-size: 14px;
 	font-family: Apercu-Light;
 	color: black;
 	position: fixed;
 	display: inline-block;
 	/*top: calc(90% + 20px);*/
-	top: 82%;
+	top: 78%;
 	/*width: 70%;*/
 	/*margin-left: 15%;*/
 	/*margin-right: 15%;*/
@@ -247,7 +247,7 @@ a:hover {
 	width: 20px;
 	height: 20px;
 	position: fixed;
-	top: 93%;
+	top: 90%;
 	left: -webkit-calc(50% - 10px);
 	left: calc(50% - 10px);
 	z-index: 100002;
