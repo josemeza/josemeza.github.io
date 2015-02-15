@@ -163,7 +163,7 @@ $(document).ready(function() {
 					break;
 
 				case "Surveying the Dark Age":
-					caption = "Time-based, film project based on a fictional, primitive data-storing narrative.";
+					caption = "Film project based on a fictional, primitive data-storing narrative.";
 					images = [
 						"images/Survey/map1.jpg",
 						"images/Survey/map2.jpg",
