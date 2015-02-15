@@ -200,6 +200,7 @@ a:hover {
 		color-stop(74%, rgba(246,246,246,0.26)), 
 		color-stop(100%, rgba(237,237,237,0)));
 */
+	-webkit-appearance: none;
 	box-shadow: 0px 0px 30px 30px white;
 }
 
