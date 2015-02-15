@@ -205,13 +205,9 @@ $(document).ready(function() {
 	});
 
 	$(window).resize(function() {
-		$('.carousel-item').css('height', 0.66 * $(window).height());
+		$('.carousel-item').css('height', 0.6 * $(window).height());
 		// $('.carousel-item').css('max-height', 0.75 * $(window).height());
 		// $('.carousel-item').css('max-width', 0.75 * $(window).width());
-	});
-
-	carousel.on('beforeChange', function(slick, currentSlide, nextSlide) {
-
 	});
 
 });
