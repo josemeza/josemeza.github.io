@@ -221,7 +221,7 @@ a:hover {
 	color: black;
 	position: fixed;
 	top: -webkit-calc(20% - 44px);
-	top: calc(20% - 44px);
+	top: calc(18.5% - 44px);
 	width: 100%;
 	text-align: center;
 	z-index: 100002;
