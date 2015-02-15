@@ -58,6 +58,12 @@ $(document).ready(function() {
 		// carouselLabel.show();
 		// carouselCaption.show();
 		// carousel.show();
+		$('.carousel-item').mouseenter(function() {
+			$(this).css('opacity', 0.5);
+		});
+		$('.carousel-item').mouseleave(function() {
+			$(this).css('opacity', 1);
+		});
 		$('.carousel-item img').css('height', 0.6 * $(window).height());
 		// $('.carousel-item img').css('max-height', 0.75 * $(window).height());
 		// $('.carousel-item img').css('max-width', 0.75 * $(window).width());

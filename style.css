@@ -213,9 +213,9 @@ a:hover {
 	/*vertical-align: middle;*/
 }
 
-.carousel-item:hover {
+/*.carousel-item:hover {
 	opacity: 0.5;
-}
+}*/
 
 #carousel-label {
 	font-size: 24px;
