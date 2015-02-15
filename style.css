@@ -35,13 +35,18 @@ body {
 	z-index: 200000;
 }
 
-.header, .grid {
-	margin: 30px;
+.header {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 .grid {
 	margin-top: 0px;
-	margin-right: 14px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+	margin-right: 34px;
 	z-index: 1;
 }
 
@@ -62,11 +67,10 @@ body {
 }
 
 #info {
-	width: calc(100% - 60px);
 	display: none;
 	margin: 0px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
 	padding-bottom: 30px;
 	padding-top: 1px;
 	font-size: 36px;
@@ -76,6 +80,13 @@ body {
 	background-color: white;
 	box-shadow: rgb(0, 0, 0) -1px 12px 13px -14px;
 	-webkit-box-shadow: rgb(0, 0, 0) -1px 12px 13px -14px;
+}
+
+#info p {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-left: 0px;
+	margin-bottom: 20px;
 }
 
 a { 
@@ -183,11 +194,13 @@ a:hover {
 	width: 100%;
 	z-index: 100001;
 	background-color: white;
-	padding: 30px;
-	background: -webkit-gradient(left top, left bottom, 
+	/*padding: 30px;*/
+/*	background: -webkit-gradient(left top, left bottom, 
 		color-stop(0%, rgba(255,255,255,1)), 
 		color-stop(74%, rgba(246,246,246,0.26)), 
 		color-stop(100%, rgba(237,237,237,0)));
+*/
+	box-shadow: 0px 0px 30px 30px white;
 }
 
 .carousel-item {
