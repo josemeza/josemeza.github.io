@@ -220,8 +220,10 @@ a:hover {
 	font-size: 24px;
 	color: black;
 	position: fixed;
-	top: -webkit-calc(14% - 24px);
-	top: calc(14% - 24px);
+	/*top: -webkit-calc(10% + 15px);*/
+	/*top: calc(10% + 15px);*/
+	top: 10%;
+	padding-top: 15px;
 	width: 100%;
 	text-align: center;
 	z-index: 100002;
@@ -233,12 +235,12 @@ a:hover {
 	color: black;
 	position: fixed;
 	display: inline-block;
-	/*top: calc(90% + 20px);*/
-	top: 80%;
+	top: -webkit-calc(88% - 60px);
+	top: calc(88% - 60px);
 	/*width: 70%;*/
+	padding-top: 15px;
 	/*margin-left: 15%;*/
 	/*margin-right: 15%;*/
-	padding: 0px;
 	text-align: center;
 	z-index: 100002;
 }
