@@ -220,8 +220,8 @@ a:hover {
 	font-size: 24px;
 	color: black;
 	position: fixed;
-	top: -webkit-calc(20% - 44px);
-	top: calc(18.5% - 44px);
+	top: -webkit-calc(14% - 24px);
+	top: calc(14% - 24px);
 	width: 100%;
 	text-align: center;
 	z-index: 100002;
