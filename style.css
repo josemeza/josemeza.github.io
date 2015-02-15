@@ -220,8 +220,8 @@ a:hover {
 	font-size: 24px;
 	color: black;
 	position: fixed;
-	top: -webkit-calc(18% - 44px);
-	top: calc(18% - 44px);
+	top: -webkit-calc(20% - 44px);
+	top: calc(20% - 44px);
 	width: 100%;
 	text-align: center;
 	z-index: 100002;
@@ -234,7 +234,7 @@ a:hover {
 	position: fixed;
 	display: inline-block;
 	/*top: calc(90% + 20px);*/
-	top: 78%;
+	top: 80%;
 	/*width: 70%;*/
 	/*margin-left: 15%;*/
 	/*margin-right: 15%;*/
