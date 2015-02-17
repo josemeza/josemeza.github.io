@@ -86,7 +86,7 @@ $(document).ready(function() {
 		switch (label) {
 
 			case "Cholo Urbanism":
-				caption = "Superblock, roofscape-condenser urban model for a transnational immigrant community in Brooklyn.";
+				caption = "Superblock, roofscape-condenser urban model for a transnational immigrant community in Brooklyn. \nAdvisor: Andres Jaque";
 				images = [
 					"images/Cholo Urbanism/axo.png",
 					"images/Cholo Urbanism/detail1.jpg",
@@ -100,7 +100,7 @@ $(document).ready(function() {
 				break;
 
 			case "Frameworks":
-				caption = "Multi-site proposal and identity for a modular, temporary and recreational system sponsored by the NYC Parks Department (or any other sponsor).";
+				caption = "Multi-site proposal and identity for a modular, temporary and recreational system sponsored by the NYC Parks Department (or any other sponsor). \r\nAdvisor: Liz Diller";
 				images = [
 					"images/Frameworks/parkslogo.gif",
 					"images/Frameworks/frames.png",
@@ -163,7 +163,7 @@ $(document).ready(function() {
 					break;
 
 				case "Surveying the Dark Age":
-					caption = "Film project based on a fictional, primitive data-storing narrative.";
+					caption = "Film project based on a fictional, primitive data-storing narrative. \nAdvisor: Liam Young";
 					images = [
 						"images/Survey/map1.jpg",
 						"images/Survey/map2.jpg",
