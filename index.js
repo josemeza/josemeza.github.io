@@ -186,8 +186,8 @@ $(document).ready(function() {
 			// carousel.append('<img class="carousel-item" src="'+x+'">');
 			carousel.append('<div class="carousel-item"><img src="'+x+'"></div>');
 		});
-		carouselLabel.text(label);
-		carouselCaption.text(caption);
+		carouselLabel.html(label);
+		carouselCaption.html(caption);
 		$('.carousel-item').click(function() {
 			carousel.slick('slickGoTo', $(this).data("slick-index"));
 		});
