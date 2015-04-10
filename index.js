@@ -180,6 +180,21 @@ $(document).ready(function() {
 						"images/Survey/Still5.png",
 						"images/Survey/Still6.png"];
 					break;
+
+				case "Learning from-in Latin America":
+					caption = "Print materials for a symposium event accompanying the MoMA exhibition."; 
+					images = [
+						"images/LAA/LAA1.jpg",
+						"images/LAA/LAA2.jpg",
+						"images/LAA/LAA4.jpg",
+						"images/LAA/LAA5.jpg"];
+					break;
+
+				case "Learning from-in Latin America: Draft":
+					caption = "Proposed poster for the Princeton + MoMA symposium event."; 
+					images = [
+						"images/LAA/LAAPoster1.png"];
+					break;
 		}
 
 		images.forEach(function(x) {
