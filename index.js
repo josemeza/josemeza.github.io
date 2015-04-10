@@ -182,7 +182,7 @@ $(document).ready(function() {
 					break;
 
 				case "Learning from-in Latin America":
-					caption = "Print materials for a symposium event accompanying the MoMA exhibition."; 
+					caption = "Print materials for a symposium event accompanying the <a href='https://www.moma.org/visit/calendar/exhibitions/1499' target='_blank'>MoMA exhibition</a>."; 
 					images = [
 						"images/LAA/LAA1.jpg",
 						"images/LAA/LAA2.jpg",
@@ -191,7 +191,7 @@ $(document).ready(function() {
 					break;
 
 				case "Learning from-in Latin America: Draft":
-					caption = "Proposed poster for the Princeton + MoMA symposium event."; 
+					caption = "Proposed poster for the <a href='https://www.moma.org/visit/calendar/events/23283' target='_blank'>Princeton + MoMA symposium event</a>."; 
 					images = [
 						"images/LAA/LAAPoster1.png"];
 					break;
