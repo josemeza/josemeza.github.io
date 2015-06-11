@@ -85,6 +85,29 @@ $(document).ready(function() {
 		var images;
 		switch (label) {
 
+			case "Combine to Apply":
+				caption = "A suburban house is spontaneously occupied with an assortment of eclectic surface treatments. <em> Advisor: Michael Meredith </em>";
+				images = [
+					"images/Thesis/thesis_1.jpg",
+					"images/Thesis/thesis_0a.jpg",
+					"images/Thesis/thesis_2.jpg",
+					"images/Thesis/thesis_3.jpg",
+					"images/Thesis/thesis_3a.jpg",
+					"images/Thesis/thesis_4.jpg",
+					"images/Thesis/thesis_4a.jpg",
+					"images/Thesis/thesis_5.jpg",
+					"images/Thesis/thesis_8.jpg",
+					"images/Thesis/thesis_6.jpg",
+					"images/Thesis/thesis_6a.jpg",
+					"images/Thesis/thesis_6b.jpg",
+					"images/Thesis/thesis_7.jpg",
+					"images/Thesis/thesis_7b.jpg",
+					"images/Thesis/thesis_9.jpg",
+					"images/Thesis/thesis_9a.jpg",
+					"images/Thesis/thesis_9b.jpg",
+					"images/Thesis/thesis_9c.jpg",];
+				break;
+
 			case "Cholo Urbanism":
 				caption = "Superblock, roofscape-condenser urban model for a transnational immigrant community in Brooklyn. <em> Advisor: Andres Jaque </em>";
 				images = [
