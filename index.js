@@ -180,6 +180,7 @@ $(document).ready(function() {
 						"images/PSOA/PSOA-03.png",
 						"images/PSOA/PSOA-04.png",
 						"images/PSOA/PSOA-05.png",
+						"images/P6.png",
 						"images/PSOA/PSOA-06.png",
 						"images/PSOA/PSOA-07.png",
 						"images/PSOA/PSOA-08.png",];
