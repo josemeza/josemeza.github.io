@@ -86,7 +86,7 @@ $(document).ready(function() {
 		switch (label) {
 
 			case "Combine to Apply":
-				caption = "A suburban house is spontaneously occupied with an assortment of eclectic surface treatments. <br> <em> Advisor: Michael Meredith </em>";
+				caption = "The thesis project consists of a site-specific occupation (and visitor experience) of a suburban house with an assortment of curated surface treatments : materials, images, text and soundtrack. (text and sound forthcoming) <em> Advisor: Michael Meredith </em>";
 				images = [
 					"images/Thesis/thesis_1.jpg",
 					"images/Thesis/thesis_0a.jpg",
@@ -214,7 +214,7 @@ $(document).ready(function() {
 						"images/LAA/LAA5.jpg"];
 					break;
 
-				case "Learning from-in Latin America: Draft":
+				case "Learning from-in Latin America : Draft":
 					caption = "Proposed poster for the <a href='https://www.moma.org/visit/calendar/events/23283' target='_blank'>Princeton + MoMA symposium event</a>."; 
 					images = [
 						"images/LAA/LAAPoster1.png"];
