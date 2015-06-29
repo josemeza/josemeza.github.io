@@ -86,7 +86,7 @@ $(document).ready(function() {
 		switch (label) {
 
 			case "Combine to Apply":
-				caption = "The thesis project consisted of a site-specific occupation and visitor experience of a suburban house with an assortment of surface treatments : materials, images, text and soundtrack (forthcoming). <em> Advisor: Michael Meredith </em>";
+				caption = "The thesis project consisted of a site-specific occupation and mediated experience of a suburban house with an assortment of physical surface treatments, images, text and soundtrack (forthcoming). <em> Advisor: Michael Meredith </em>";
 				images = [
 					"images/Thesis/thesis_1.jpg",
 					"images/Thesis/thesis_0a.jpg",
