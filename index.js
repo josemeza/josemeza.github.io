@@ -103,7 +103,7 @@ $(document).ready(function() {
 					"images/Thesis Catalog/catalog7.jpg",
 					"images/Thesis Catalog/axo.jpg",
 					"images/Thesis Catalog/catalog8.jpg",
-					"images/Thesis Catalog/_MG_7205.jpg",];
+					"images/Thesis Catalog/house interior.jpg",];
 				break;
 
 			case "Combine to Apply":
