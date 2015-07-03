@@ -85,6 +85,27 @@ $(document).ready(function() {
 		var images;
 		switch (label) {
 
+			case "Thesis Catalog":
+				caption = "A printed catalog of design experiments and prototypes in photography, physical modeling, digital rendering, and drawing formats leading up to the final thesis project.";
+				images = [
+					"images/Thesis Catalog/cover.jpg",
+					"images/Thesis Catalog/cover_detail.jpg",
+					"images/Thesis Catalog/catalog1.jpg",
+					"images/Thesis Catalog/detail collage.jpg",
+					"images/Thesis Catalog/catalog5.jpg",
+					"images/Thesis Catalog/IMG_0743.jpg",
+					"images/Thesis Catalog/catalog2.jpg",
+					"images/Collages/amazon017.jpg",
+					"images/Thesis Catalog/catalog3.jpg",
+					"images/Collages/for maquette019.jpg",
+					"images/Thesis Catalog/catalog4.jpg",
+					"images/Thesis Catalog/catalog9.jpg",
+					"images/Thesis Catalog/catalog7.jpg",
+					"images/Thesis Catalog/axo.jpg",
+					"images/Thesis Catalog/catalog8.jpg",
+					"images/Thesis Catalog/_MG_7205.jpg",];
+				break;
+
 			case "Combine to Apply":
 				caption = "The thesis project consisted of a site-specific occupation and mediated experience of a suburban house with an assortment of physical surface treatments, images, text and soundtrack (forthcoming). <em> Advisor: Michael Meredith </em>";
 				images = [
