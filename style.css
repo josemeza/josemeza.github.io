@@ -38,15 +38,15 @@ body {
 .header {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	margin-left: 90px;
-	margin-right: 90px;
+	margin-left: 80px;
+	margin-right: 80px;
 }
 
 .grid {
 	margin-top: 0px;
 	margin-bottom: 20px;
-	margin-left: 90px;
-	margin-right: 90px;
+	margin-left: 80px;
+	margin-right: 80px;
 	z-index: 1;
 }
 
@@ -60,6 +60,9 @@ body {
 	margin: 0px;
 	/*font-size: 64px;*/
 	cursor: pointer;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
 }
 
 #name:hover {
@@ -104,14 +107,12 @@ a:hover {
 	/*padding-top: 23px;*/
 	margin: 0px;
 	cursor: pointer;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
 }
 
-#shuffle img {
-	width: auto;
-	/*height: 25px;*/
-}
-
-#shuffle:hover img {
+#shuffle:hover {
 	opacity: .5;
 }
 
@@ -121,8 +122,8 @@ a:hover {
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	margin-top: -20px;
-  	margin-left: -20px;
+	margin-left: auto;
+	margin-right:auto;
 	-webkit-animation: spin 0.75s linear infinite;
     -moz-animation: spin 0.75s linear infinite;
     animation: spin 0.75s linear infinite;	
@@ -275,11 +276,9 @@ a:hover {
 		line-height: 48px;
 	}
 	#shuffle {
-		padding-top: 20px;
+		font-size: 84px;
 	}
-	#shuffle img {
-		height: 28px;
-	}
+	
 	.tile {
 		width: -webkit-calc(25% - 16px);
 		width: calc(25% - 16px);
@@ -311,10 +310,7 @@ a:hover {
 		line-height: 36px;
 	}
 	#shuffle {
-		padding-top: 17px;
-	}
-	#shuffle img {
-		height: 25px;
+		font-size: 60px;
 	}
 	.tile {
 		width: -webkit-calc(33.33333% - 16px);
@@ -347,10 +343,7 @@ a:hover {
 		line-height: 24px;
 	}
 	#shuffle {
-		padding-top: 8px;
-	}
-	#shuffle img {
-		height: 22px;
+		font-size: 48px;
 	}
 	.tile {
 		width: -webkit-calc(50% - 16px);
@@ -383,10 +376,7 @@ a:hover {
 		line-height: 18px;
 	}
 	#shuffle {
-		padding-top: 0px;
-	}
-	#shuffle img {
-		height: 18px;
+		font-size: 36px;
 	}
 	.tile {
 		width: -webkit-calc(100% - 16px);
