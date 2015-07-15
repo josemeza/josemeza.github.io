@@ -184,13 +184,8 @@ $(document).ready(function() {
 						"images/Pidgin/Pidgin-03.png",
 						"images/Pidgin/Pidgin-04.png",
 						"images/Pidgin/Pidgin-05.png",
+						"images/Pidgin/pidgin.gif",
 						"images/Pidgin/Pidgin-06.png",];
-					break;
-
-				case "Print : Portfolio":
-					caption = "Recent Work";
-					images = [
-						"images/Portfolio.gif"];
 					break;
 
 				case "Princeton School of Architecture":
@@ -201,10 +196,10 @@ $(document).ready(function() {
 						"images/PSOA/PSOA-03.png",
 						"images/PSOA/PSOA-04.png",
 						"images/PSOA/PSOA-05.png",
-						"images/P6.png",
 						"images/PSOA/PSOA-06.png",
 						"images/PSOA/PSOA-07.png",
-						"images/PSOA/PSOA-08.png",];
+						"images/PSOA/PSOA-08.png",
+						"images/PSOA/psoa.gif"];
 					break;
 
 				case "Surveying the Dark Age":
