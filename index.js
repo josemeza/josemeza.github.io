@@ -161,6 +161,7 @@ $(document).ready(function() {
 					"images/Highline/flowers2.jpg",
 					"images/Highline/flowers3.jpg",
 					"images/Highline/flowers4.jpg",
+					"images/Highline/line1.jpg",
 					"images/Highline/rail1.jpg",
 					"images/Highline/rail2.jpg",
 					"images/Highline/rail3.jpg"];
