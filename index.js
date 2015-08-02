@@ -106,8 +106,8 @@ $(document).ready(function() {
 					"images/Thesis Catalog/house interior.jpg",];
 				break;
 
-			case "Combine to Apply":
-				caption = "The thesis project consisted of a site-specific occupation and mediated experience of a suburban house with an assortment of physical surface treatments, images, text and soundtrack (forthcoming). <em> Advisor: Michael Meredith </em>";
+			case ""Combine to Apply"":
+				caption = "The thesis project consisted of a site-specific occupation and mediated experience of a suburban house with an assortment of physical surface treatments, photographs, text and soundtrack (forthcoming). <em> Advisor: Michael Meredith </em>";
 				images = [
 					"images/Thesis/thesis_1.jpg",
 					"images/Thesis/thesis_0a.jpg",
@@ -240,7 +240,7 @@ $(document).ready(function() {
 					break;
 
 				case "PSOA Printed Matter":
-					caption = "Assorted event and symposia posters completed while employed as a designer for the Princeton School of Architecture."; 
+					caption = "Assorted event and symposia posters completed while employed for the Princeton School of Architecture."; 
 					images = [
 						"images/PSOA Posters/P0.png",
 						"images/PSOA Posters/P1.png",
