@@ -240,7 +240,7 @@ $(document).ready(function() {
 					break;
 
 				case "PSOA Printed Matter":
-					caption = "Assorted event and symposia posters done while employed as a designer for the Princeton School of Architecture."; 
+					caption = "Assorted event and symposia posters completed while employed as a designer for the Princeton School of Architecture."; 
 					images = [
 						"images/PSOA Posters/P0.png",
 						"images/PSOA Posters/P1.png",
