@@ -167,6 +167,14 @@ $(document).ready(function() {
 					"images/Highline/rail3.jpg"];
 				break;
 
+			//case "2x4":
+				caption = "Donor signage and product deisgn for The Clark Art Institute. **Work done while employed at 2x4, New York. Art Director: Jessica Dobkin";
+				images = [
+					"images/2x4/donor.jpg",
+					"images/2x4/stanchion.jpg",
+					"images/2x4/stanchion2.jpg"];
+				break;
+
 			case "Sketches":
 				caption = "";
 				images = [
@@ -231,10 +239,13 @@ $(document).ready(function() {
 						"images/LAA/LAA5.jpg"];
 					break;
 
-				case "Learning from-in Latin America : Draft":
-					caption = "Proposed poster for the <a href='https://www.moma.org/visit/calendar/events/23283' target='_blank'>Princeton + MoMA symposium event</a>."; 
+				case "PSOA Printed Matter":
+					caption = "Assorted event and symposia posters done while employed as a designer for the Princeton School of Architecture."; 
 					images = [
-						"images/LAA/LAAPoster1.png"];
+						"images/PSOA Posters/P0.png",
+						"images/PSOA Posters/P1.png",
+						"images/PSOA Posters/P2.png",
+						"images/PSOA Posters/P3.png"];
 					break;
 		}
 
