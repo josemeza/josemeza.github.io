@@ -146,7 +146,7 @@ $(document).ready(function() {
 			case "Frameworks":
 				caption = "Multi-site proposal and identity for a modular, temporary and recreational system sponsored by the NYC Parks Department (or any other sponsor). <em>Advisor: Liz Diller</em>";
 				images = [
-					"images/Frameworks/parkslogo.gif",
+					"images/Frameworks/logo.jpg",
 					"images/Frameworks/frames.png",
 					"images/Frameworks/bushwick.png",
 					"images/Frameworks/harlem.png",
