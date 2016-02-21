@@ -175,7 +175,9 @@ $(document).ready(function() {
 					"images/2x4/Prada-Gatsby.jpg",
 					"images/2x4/Gatsby3.jpg",
 					"images/2x4/Hyundai.jpg",
-					"images/2x4/Hyundai1.jpg"];
+					"images/2x4/CultureShed2.jpg",
+					"images/2x4/CultureShed1.jpg",
+					"images/2x4/CultureShed3.jpg"];
 				break;
 
 			case "Pentagram":
