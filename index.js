@@ -174,7 +174,7 @@ $(document).ready(function() {
 					"images/2x4/Clark1.jpg",
 					"images/2x4/Prada-Gatsby.jpg",
 					"images/2x4/Gatsby3.jpg",
-					"images/2x4/Hyundai.jpg"
+					"images/2x4/Hyundai.jpg",
 					"images/2x4/Hyundai1.jpg"];
 				break;
 
