@@ -171,8 +171,11 @@ $(document).ready(function() {
 				caption = "Signage, exhibition and architectural design for these clients while employed at <a href='http://2x4.org/' target='_blank'>2x4</a>, New York.";
 				images = [
 					"images/2x4/TheNowClark.gif",
+					"images/2x4/Clark1.jpg",
 					"images/2x4/Prada-Gatsby.jpg",
-					"images/2x4/Hyundai.jpg"];
+					"images/2x4/Gatsby3.jpg",
+					"images/2x4/Hyundai.jpg"
+					"images/2x4/Hyundai1.jpg"];
 				break;
 
 			case "Pentagram":
