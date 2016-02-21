@@ -95,7 +95,7 @@ $(document).ready(function() {
 					"images/Thesis Catalog/catalog5.jpg",
 					"images/Thesis Catalog/IMG_0743.jpg",
 					"images/Thesis Catalog/catalog2.jpg",
-					"images/Collages/amazon017.jpg",
+					"images/Collages/amazon.jpg",
 					"images/Thesis Catalog/catalog3.jpg",
 					"images/Collages/for maquette019.jpg",
 					"images/Thesis Catalog/catalog4.jpg",
