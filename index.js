@@ -184,8 +184,8 @@ $(document).ready(function() {
 					"images/Pentagram/NYU.jpg",];
 				break;
 
-			case "Experiments":
-				caption = "Side project in graduate school.";
+			case "Idea Graveyard":
+				caption = "";
 				images = [
 					"images/Collages/amazon.jpg",
 					"images/Collages/brick.jpg",
