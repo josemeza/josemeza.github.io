@@ -8,18 +8,8 @@
 	src: url(./font-familiy/Apercu-Light.ttf);
 }
 
-@font-face {
-	font-family: MaisonNeue;
-	src: url(./font-family_3/MaisonNeueTRIAL-Demi.otf);
-}
-
-@font-face {
-	font-family: CircularStd-Medium;
-	src: url(./font-family_2/CircularStd-Medium.otf);
-}
-
 body {
-	font-family: Apercu-Medium, CircularStd-Medium, MaisonNeue, Sans-serif !important;
+	font-family: Apercu-Medium, Sans-serif !important;
 	color: black;
 	margin: 0;
 	padding: 0;
@@ -72,10 +62,10 @@ body {
 #info {
 	display: none;
 	margin: 0px;
-	padding-left: 90px;
-	padding-right: 90px;
-	padding-bottom: 30px;
-	padding-top: 1px;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 80px;
+	padding-top: 0px;
 	font-size: 30px;
 	line-height: 36px;
 	position: relative;
@@ -88,9 +78,19 @@ body {
 #info p {
 	margin-top: 0px;
 	margin-left: 0px;
-	margin-left: 0px;
 	margin-bottom: 30px;
 }
+
+#info img {
+	width: 20px;
+	height: 20px;
+	margin: 0px;
+	cursor: pointer;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
 
 a { 
 	text-decoration: none;
@@ -170,8 +170,8 @@ a:hover {
 	display: table-cell;
 	vertical-align: middle;
 	color: black;
-	font-size: 21px;
-	line-height: 21px;
+	font-size: 20px;
+	line-height: 25px;
 }
 
 .subtitle {
@@ -207,9 +207,11 @@ a:hover {
 	box-shadow: 0px 0px 60px 60px white;*/
 }
 
+.carousel:hover {
+	text-decoration: underline; 
+}
 .carousel-item {
 	cursor: pointer;
-
 	width: auto;
 	height: auto;
 	margin-left: 20px;
@@ -244,6 +246,7 @@ a:hover {
 	top: calc(88% - 60px);
 	/*width: 70%;*/
 	padding-top: 15px;
+	padding-bottom: 15px;
 	/*margin-left: 15%;*/
 	/*margin-right: 15%;*/
 	text-align: center;
@@ -251,9 +254,11 @@ a:hover {
 }
 
 #carousel-close {
+	cursor: pointer;
 	width: 20px;
 	height: 20px;
 	position: fixed;
+	display: inline-block;
 	top: 90%;
 	left: -webkit-calc(50% - 10px);
 	left: calc(50% - 10px);

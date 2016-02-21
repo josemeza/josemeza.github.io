@@ -85,7 +85,7 @@ $(document).ready(function() {
 		var images;
 		switch (label) {
 
-			case "Thesis Catalog":
+			case "Master's Thesis Catalog":
 				caption = "A printed catalog of design experiments and prototypes in photography, physical modeling, digital rendering, and drawing formats leading up to the final thesis project.";
 				images = [
 					"images/Thesis Catalog/cover.jpg",
@@ -100,14 +100,14 @@ $(document).ready(function() {
 					"images/Collages/for maquette019.jpg",
 					"images/Thesis Catalog/catalog4.jpg",
 					"images/Thesis Catalog/catalog9.jpg",
+					"images/Thesis Catalog/axo.jpg",
 					"images/Thesis Catalog/catalog7.jpg",
 					"images/Thesis Catalog/Elevations-04 copy.jpg",
-					"images/Thesis Catalog/catalog8.jpg",
-					"images/Thesis Catalog/house interior.jpg",];
+					"images/Thesis Catalog/catalog8.jpg"];
 				break;
 
-			case "Combine to Apply":
-				caption = "The thesis project consisted of a site-specific occupation and mediated experience of a suburban house with an assortment of physical surface treatments, photographs, text and soundtrack (forthcoming). <em> Advisor: Michael Meredith </em>";
+			case "Princeton Master's Thesis":
+				caption = "The thesis project consisted of a site-specific occupation and mediated experience of a suburban house with an assortment of physical surface treatments, photographs, text and soundtrack. Thesis Advisor: <a href='http://www.mos-office.net/' target='_blank'>Michael Meredith</a>.";
 				images = [
 					"images/Thesis/thesis_1.jpg",
 					"images/Thesis/thesis_0a.jpg",
@@ -126,13 +126,13 @@ $(document).ready(function() {
 					"images/Thesis/thesis_9.jpg",
 					"images/Thesis/thesis_9a.jpg",
 					"images/Thesis/thesis_9b.jpg",
-					"images/Thesis/thesis_9c.jpg",];
+					"images/Thesis/thesis_9c.jpg"];
 				break;
 
-			case "Cholo Urbanism":
-				caption = "Superblock, roofscape-condenser urban model for a transnational immigrant community in Brooklyn. <br> <em> Advisor: Andres Jaque </em>";
+			case "Urbanism Studio":
+				caption = "Superblock, roofscape-condenser model for a transnational immigrant community in Brooklyn. <br>Design studio under the instruction of <em>Andres Jaque.</em>";
 				images = [
-					"images/Cholo Urbanism/axo.png",
+					"images/Cholo.png",
 					"images/Cholo Urbanism/detail1.jpg",
 					"images/Cholo Urbanism/detail2.jpg",
 					"images/Cholo Urbanism/detail3.jpg",
@@ -140,11 +140,11 @@ $(document).ready(function() {
 					"images/Cholo Urbanism/detail5.jpg",
 					"images/Cholo Urbanism/detail6.jpg",
 					"images/Cholo Urbanism/detail7.jpg",
-					"images/Cholo Urbanism/plan.png"];
+					"images/Cholo Urbanism/plan.jpg"];
 				break;
 
-			case "Frameworks":
-				caption = "Multi-site proposal and identity for a modular, temporary and recreational system sponsored by the NYC Parks Department (or any other sponsor). <em>Advisor: Liz Diller</em>";
+			case "Design Studio":
+				caption = "Multi-site proposal and identity for a modular, temporary and recreational system sponsored by the NYC Parks Department (or any other sponsor). Under the instruction of <a href='http://www.dsrny.com/' target='_blank'>Liz Diller</a>";
 				images = [
 					"images/Frameworks/logo.jpg",
 					"images/Frameworks/frames.png",
@@ -153,7 +153,7 @@ $(document).ready(function() {
 					"images/Frameworks/riis.png"];
 				break;
 
-			case "High Line : Branding & Identity":
+			case "High Line":
 				caption = "Rebranding strategy and environmental graphic identity for the seminal elevated park in New York.";
 				images = [
 					"images/Highline/wordmark.gif",
@@ -167,22 +167,35 @@ $(document).ready(function() {
 					"images/Highline/rail3.jpg"];
 				break;
 
-			//case "2x4":
-				caption = "Donor signage and product deisgn for The Clark Art Institute. **Work done while employed at 2x4, New York. Art Director: Jessica Dobkin";
+			case "2 x 4":
+				caption = "Signage, exhibition and architectural design for these clients while employed at <a href='http://2x4.org/' target='_blank'>2x4</a>, New York.";
 				images = [
-					"images/2x4/donor.jpg",
-					"images/2x4/stanchion.jpg",
-					"images/2x4/stanchion2.jpg"];
+					"images/2x4/TheNowClark.gif",
+					"images/2x4/Prada-Gatsby.jpg",
+					"images/2x4/Hyundai.jpg"];
 				break;
 
-			case "Sketches":
-				caption = "";
+			case "Pentagram":
+				caption = "Environmental design for these clients while employed at <a href='http://www.pentagram.com/#/homePentagram' target='_blank'>Pentagram</a>, New York under the direction of Paula Scher.";
 				images = [
-					"images/HLSnark/HL5.jpg",
-					"images/HLSnark/AD3.jpg",
-					"images/HLSnark/AD5.jpg",
-					"images/HLSnark/HL2.jpg",
-					"images/HLSnark/HL4.jpg"];
+					"images/Pentagram/Highline.jpg",
+					"images/Pentagram/MSM.jpg",
+					"images/Pentagram/TheNewSchool.gif",
+					"images/Pentagram/NYU.jpg",];
+				break;
+
+			case "Experiments":
+				caption = "Side project in graduate school.";
+				images = [
+					"images/Collages/amazon.jpg",
+					"images/Collages/brick.jpg",
+					"images/Collages/burlap.jpg",
+					"images/Collages/carpet.jpg",
+					"images/Collages/concrete.jpg",
+					"images/Collages/maquette.jpg",
+					"images/Collages/marble.jpg",
+					"images/Collages/tile.jpg",
+					"images/Collages/veneer brick.jpg"];
 				break;
 
 			case "Pidgin Magazine":
@@ -211,8 +224,8 @@ $(document).ready(function() {
 						"images/PSOA/psoa.gif"];
 					break;
 
-				case "Surveying the Dark Age":
-					caption = "Film project based on a fictional, primitive data-storing narrative. <br> <em>Advisor: Liam Young</em>";
+				case "Motion Design Studio":
+					caption = "Stills from a time-based project depicting a fictional, primitive data-storage narrative. <br> Design studio under the instruction of Liam Young.";
 					images = [
 						"images/Survey/map1.jpg",
 						"images/Survey/map2.jpg",
@@ -230,13 +243,13 @@ $(document).ready(function() {
 						"images/Survey/Still6.png"];
 					break;
 
-				case "Learning from-in Latin America":
+				case "MoMA + Princeton: Learning from/in Latin America":
 					caption = "Print materials for a symposium event accompanying the <a href='https://www.moma.org/visit/calendar/exhibitions/1499' target='_blank'>MoMA exhibition</a>."; 
 					images = [
-						"images/LAA/LAA1.jpg",
-						"images/LAA/LAA2.jpg",
 						"images/LAA/LAA4.jpg",
-						"images/LAA/LAA5.jpg"];
+						"images/LAA/LAA5.jpg",
+						"images/LAA/LAA1.jpg",
+						"images/LAA/LAA2.jpg"];
 					break;
 
 				case "PSOA Printed Matter":
@@ -245,7 +258,23 @@ $(document).ready(function() {
 						"images/PSOA Posters/P0.png",
 						"images/PSOA Posters/P1.png",
 						"images/PSOA Posters/P2.png",
-						"images/PSOA Posters/P3.png"];
+						"images/PSOA Posters/P3.png",
+						"images/PSOA Posters/P4.jpg"];
+					break;
+
+				case "Figma":
+					caption = "An assortment of marketing collateral for <a href='https://www.figma.com/' target='_blank'>Figma's</a> preview release."; 
+					images = [
+						"images/Figma/morph-white.gif",
+						"images/Figma/icon set.png",
+						"images/Figma/landing page.png",
+						"images/Figma/1.gif",
+						"images/Figma/plus-check.gif",
+						"images/Figma/2.gif",
+						"images/Figma/teams-fill.gif",
+						"images/Figma/3.gif",
+						"images/Figma/file-import.gif",
+						"images/Figma/medium cover photo.png"];
 					break;
 		}
 
