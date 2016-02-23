@@ -175,6 +175,7 @@ $(document).ready(function() {
 					"images/2x4/Prada-Gatsby.jpg",
 					"images/2x4/Gatsby3.jpg",
 					"images/2x4/Hyundai.jpg",
+					"images/2x4/Hyundai1.jpg",
 					"images/2x4/CultureShed2.jpg",
 					"images/2x4/CultureShed1.jpg",
 					"images/2x4/CultureShed3.jpg"];
@@ -270,16 +271,12 @@ $(document).ready(function() {
 				case "Figma":
 					caption = "An assortment of marketing collateral for <a href='https://www.figma.com/' target='_blank'>Figma's</a> preview release."; 
 					images = [
-						"images/Figma/morph-white.gif",
 						"images/Figma/icon set.png",
 						"images/Figma/landing page.png",
+						"images/Figma/figma swag copy.jpg",
 						"images/Figma/1.gif",
-						"images/Figma/plus-check.gif",
-						"images/Figma/2.gif",
-						"images/Figma/teams-fill.gif",
-						"images/Figma/3.gif",
-						"images/Figma/file-import.gif",
-						"images/Figma/medium cover photo.png"];
+						"images/Figma/figma.invite.png",
+						"images/Figma/medium cover photo.png",];
 					break;
 		}
 
