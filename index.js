@@ -212,7 +212,6 @@ $(document).ready(function() {
 						"images/Pidgin/Pidgin-03.png",
 						"images/Pidgin/Pidgin-04.png",
 						"images/Pidgin/Pidgin-05.png",
-						"images/Pidgin/pidgin.gif",
 						"images/Pidgin/Pidgin-06.png",];
 					break;
 
